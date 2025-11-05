@@ -4,7 +4,7 @@
 }
 
 .header-bar {
-    -fx-background-color: #3a7bd5;
+    -fx-background-color: linear-gradient(to right, #3a7bd5, #00d2ff);
     -fx-padding: 10;
     -fx-text-fill: white;
 }

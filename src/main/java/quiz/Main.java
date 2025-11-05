@@ -9,9 +9,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("QuizView.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("quiz-view.fxml"));
         Scene scene = new Scene(loader.load(), 800, 500);
-        scene.getStylesheets().add(getClass().getResource("/style.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("quiz-style.css").toExternalForm());
 
         primaryStage.setTitle("JavaFX Quiz Application");
         primaryStage.setScene(scene);
