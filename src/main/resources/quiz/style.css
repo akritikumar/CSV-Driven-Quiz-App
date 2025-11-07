@@ -1,0 +1,12 @@
+.table-view {
+    -fx-font-size: 14px;
+    -fx-background-color: #ecf0f1;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.label {
+    -fx-text-fill: #2c3e50;
+}

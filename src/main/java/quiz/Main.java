@@ -12,7 +12,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("quiz-view.fxml"));
         Scene scene = new Scene(loader.load(), 800, 500);
         scene.getStylesheets().add(getClass().getResource("quiz-style.css").toExternalForm());
-
+        System.out.println("print");
         primaryStage.setTitle("JavaFX Quiz Application");
         primaryStage.setScene(scene);
         primaryStage.show();
